@@ -255,6 +255,8 @@ int main() {
     return 0;
 }
 ```
+
+**BAGIAN 1**
 ```C++
 #include <iostream> 
 using namespace std; 
@@ -265,6 +267,7 @@ Interpetasinya :
 
 using namespace std;: Ini adalah deklarasi yang memberi tahu kompiler bahwa kita akan menggunakan namespace std. Namespace std adalah tempat dimana semua fungsi dan objek standar C++, seperti cin dan cout, didefinisikan.
 
+**BAGIAN 2**
 ```C++
 // Fungsi untuk mengurutkan data numerik secara ascending (bubble sort)
 void bubbleSort(double arr[], int n) {
@@ -290,6 +293,7 @@ for (int j = 0; j < n - i - 1; j++): Ini adalah loop dalam yang melakukan perban
 if (arr[j] > arr[j + 1]): Ini adalah kondisi yang mengecek apakah elemen saat ini lebih besar dari elemen berikutnya. Jika iya, maka dilakukan pertukaran elemen tersebut.
 double temp = arr[j]; arr[j] = arr[j + 1]; arr[j + 1] = temp;: Ini adalah proses pertukaran elemen. Elemen yang lebih besar disimpan dalam variabel sementara (temp), kemudian elemen-elemen tersebut ditukar posisinya.
 
+**BAGIAN 3**
 ```C++
 int main() {
     int n;
@@ -331,7 +335,7 @@ Setelah semua data dimasukkan, program mengurutkan data secara ascending menggun
 
 Setelah pengurutan selesai, program menampilkan data yang telah diurutkan secara ascending.
 
-HASIL OUTPUT 
+**HASIL OUTPUT** 
 ```C++
 Masukkan jumlah data numerik: 5
 Masukkan 5 data numerik:
@@ -352,6 +356,7 @@ Press any key to continue . . .
 
 2. Mengurutkan karakter secara descending (dari terbesar hingga terkecil) menggunakan
 Algoritma Insertion Sort
+
 ```C++
 #include <iostream> 
 using namespace std; 
@@ -397,6 +402,7 @@ int main() {
     return 0;
 }
 ```
+**BAGIAN 1**
 ```C++
 #include <iostream> 
 using namespace std; 
@@ -407,6 +413,7 @@ Interpetasinya :
 
 using namespace std;: Ini adalah deklarasi yang memberi tahu kompiler bahwa kita akan menggunakan namespace std. Namespace std adalah tempat dimana semua fungsi dan objek standar C++, seperti cin dan cout, didefinisikan.
 
+**BAGIAN 2**
 ```C++
 // Fungsi untuk mengurutkan karakter secara descending (Insertion Sort)
 void insertionSortDescending(char arr[], int n) {
@@ -426,6 +433,7 @@ Interpretasinya :
 
 Fungsi `insertionSortDescending` yang didefinisikan di atas menerapkan algoritma insertion sort untuk mengurutkan array karakter secara descending. Dalam algoritma ini, setiap elemen dari array diambil satu per satu dan ditempatkan pada posisi yang tepat di bagian yang sudah terurut dari array. Proses ini dilakukan dengan membandingkan elemen yang sedang diproses dengan elemen-elemen sebelumnya dalam bagian terurut, dan jika ditemukan elemen yang lebih kecil dari elemen yang sedang diproses, elemen tersebut akan digeser ke kanan untuk membuat ruang bagi elemen yang sedang diproses. Langkah terakhir adalah menyisipkan elemen yang sedang diproses ke posisi yang tepat dalam bagian terurut. Dengan demikian, setiap iterasi dari algoritma insertion sort memperluas bagian yang terurut dari array hingga semua elemen telah diurutkan secara descending. Penting untuk dicatat bahwa proses pengurutan dilakukan langsung pada array yang diberikan, tanpa menggunakan array tambahan.
 
+**BAGIAN 3**
 ```C++
 int main() {
     int n;
@@ -467,6 +475,7 @@ lembar Indeks Prestasi Semester (IPS), masing-masing mahasiswa tersebut memiliki
 sebagai berikut: {3.8, 2.9, 3.3, 4.0, 2.4}. Buatlah program untuk mengurutkan IPS
 mahasiswa tersebut dari yang terbesar hingga terkecil dengan menggunakan algoritma
 Selection Sort!
+
 ```C++
 #include <stdio.h>
 
@@ -507,6 +516,7 @@ int main() {
     return 0;
 }
 ```
+**BAGIAN 1**
 ```C++
 #include <stdio.h>
 ```
@@ -514,6 +524,7 @@ Interpretasinya :
 
 Header file <stdio.h> biasanya digunakan untuk mendefinisikan fungsi-fungsi standar untuk input dan output seperti printf() dan scanf(
 
+**BAGIAN 2**
 ```C++
 void selectionSort(float arr[], int n) {
     for (int i = 0; i < n - 1; i++) {
@@ -535,6 +546,7 @@ Interpretasinya :
 
 Kode yang disajikan adalah implementasi algoritma Selection Sort dengan variasi yang menarik. Biasanya, Selection Sort mengurutkan elemen dari yang terkecil ke yang terbesar. Namun, dalam kasus ini, kode tersebut mengurutkan elemen dari yang terbesar ke yang terkecil. Fungsi `selectionSort` menerima dua parameter: sebuah array `arr` yang berisi elemen bertipe float, dan sebuah integer `n` yang menunjukkan jumlah elemen dalam array. Proses dimulai dengan loop luar yang mengatur berapa banyak elemen yang akan diurutkan. Di setiap iterasi, sebuah indeks `maxIndex` diinisialisasi dengan nilai `i`, yang kemudian digunakan untuk menyimpan indeks elemen terbesar dalam sisa array yang belum diurutkan. Loop dalam kemudian mencari elemen terbesar dan memperbarui `maxIndex` jika ditemukan elemen yang lebih besar. Setelah loop dalam selesai, dilakukan pengecekan apakah `maxIndex` berbeda dari `i`. Jika ya, maka dilakukan penukaran elemen yang sesuai. Proses ini berlanjut hingga hampir seluruh array telah diurutkan secara menurun, dari elemen terbesar ke terkecil. Ini adalah implementasi yang bermanfaat dalam situasi di mana urutan terbalik lebih diinginkan.
 
+**BAGIAN 3**
 ```C++
 int main() {
     float ips[] = {3.8, 2.9, 3.3, 4.0, 2.4};
@@ -571,7 +583,7 @@ Menampilkan Array Setelah Disortir: Setelah pengurutan, program mencetak isi arr
 
 Fungsi main Mengembalikan 0: Ini menandakan bahwa program berakhir dengan sukses.
 
-HASIL OUTPUT
+**HASIL OUTPUT**
 ```C++
 IPS sebelum diurutkan:
 3.8 2.9 3.3 4.0 2.4
@@ -625,6 +637,7 @@ int main() {
     return 0;
 }
 ```
+**BAGIAN 1**
 ```C++
 #include <stdio.h>
 #include <string.h>
@@ -652,6 +665,7 @@ Intterpretasinya :
 
 Kode tersebut adalah implementasi sederhana dari algoritma Bubble Sort untuk mengurutkan array string secara leksikografis (berdasarkan urutan abjad). Algoritma tersebut membandingkan string-string berdekatan dalam array, dan jika ditemukan bahwa string pertama lebih besar dari string kedua, mereka ditukar posisinya. Proses ini diulangi hingga seluruh array terurut. Meskipun sederhana, algoritma Bubble Sort kurang efisien untuk dataset besar karena memiliki kompleksitas waktu yang buruk (O(n²)).
 
+**BAGIAN 2**
 ```C++
 int main() {
     char names[10][20] = {"siti", "situ", "sana", "ana", "ani", "caca", "cici", "dida", "dodo", "dadi"};
@@ -680,7 +694,7 @@ Kode di atas merupakan program dalam bahasa C yang menggunakan algoritma bubble 
 
 Program di atas menciptakan dan menginisialisasi sebuah array 2D yang berisi beberapa nama, kemudian menggunakan algoritma bubble sort untuk mengurutkan nama-nama tersebut secara alfabetis, dan akhirnya mencetak nama-nama tersebut sebelum dan sesudah diurutkan.
 
-HASIL OUTPUT 
+**HASIL OUTPUT** 
 ```C++
 Nama-nama sebelum diurutkan:
 siti
@@ -781,6 +795,7 @@ int main() {
     return 0;
 }
 ```
+**BAGIAN 1**
 ```C++
 #include <stdio.h>
 ```
@@ -788,6 +803,7 @@ Interpretasinya :
 
 File header <stdio.h> adalah bagian dari standar library C dan menyediakan fungsi-fungsi untuk input dan output.
 
+**BAGIAN 2**
 ```C++
 // Fungsi untuk mengurutkan karakter secara menaik (ascending)
 void ascendingSort(char arr[], int n) {
@@ -806,6 +822,7 @@ Interpretasinya :
 
 Kode di atas adalah implementasi fungsi dalam bahasa C untuk mengurutkan sebuah array karakter secara menaik menggunakan metode pengurutan gelembung. Algoritma ini membandingkan pasangan elemen bersebelahan dalam array dan menukar posisi jika diperlukan. Ini terus berulang hingga seluruh array terurut. Hasilnya adalah array yang berisi karakter-karakter dalam urutan abjad yang meningkat.
 
+**BAGIAN 3**
 ```C++
 // Fungsi untuk mengurutkan karakter secara menurun (descending)
 void descendingSort(char arr[], int n) {
@@ -824,6 +841,7 @@ Interpretasinya :
 
 Fungsi `descendingSort` menggunakan algoritma Bubble Sort untuk mengurutkan array karakter secara menurun. Algoritma ini membandingkan dua elemen berturut-turut dalam array dan menukar mereka jika urutannya tidak sesuai. Proses ini diulangi sampai tidak ada lagi pertukaran yang diperlukan. Hasilnya adalah array yang terurut secara menurun.
 
+**BAGIAN 4**
 ```C++
 int main() {
     int n;
@@ -865,7 +883,7 @@ Interpretasinya :
 
 Kode tersebut meminta pengguna untuk memasukkan sejumlah karakter, menyimpannya dalam sebuah array, mengurutkannya secara menaik, kemudian menampilkan hasilnya. Setelah itu, program akan mengurutkan karakter tersebut secara menurun dan menampilkan hasilnya lagi. Namun, perlu dicatat bahwa fungsi untuk mengurutkan secara menaik dan menurun belum didefinisikan dalam kode tersebut.
 
-HASIL OUTPUT 
+**HASIL OUTPUT** 
 ```C++
 Masukkan jumlah karakter (n): 5
 Masukkan 5 karakter:
