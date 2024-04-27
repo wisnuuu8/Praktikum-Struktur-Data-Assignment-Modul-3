@@ -208,6 +208,7 @@ void selectionSort(int arr[], int n) {
 Algoritma Selection Sort ini bekerja dengan cara memilih elemen terkecil dari array dan menukar posisinya dengan elemen pertama. Proses ini diulangi untuk elemen kedua, ketiga, dan seterusnya hingga seluruh array diurutkan.
 
 **GUIDED 1**
+
 1. Mengurutkan secara ascending untuk data numerik bertipe double menggunakan
 Algoritma Bubble Sort
 ```C++
@@ -348,6 +349,7 @@ Press any key to continue . . .
 ```
 
 **GUIDED 2**
+
 2. Mengurutkan karakter secara descending (dari terbesar hingga terkecil) menggunakan
 Algoritma Insertion Sort
 ```C++
@@ -459,6 +461,7 @@ Program diatas meminta pengguna untuk memasukkan sejumlah karakter, menyimpannya
 
 
 **UNGUIDED 1**
+
 Kelas S1 IF 2016 G memiliki 5 mahasiswa. Pada akhir semester mereka menerima
 lembar Indeks Prestasi Semester (IPS), masing-masing mahasiswa tersebut memiliki IPS
 sebagai berikut: {3.8, 2.9, 3.3, 4.0, 2.4}. Buatlah program untuk mengurutkan IPS
@@ -581,6 +584,7 @@ Press any key to continue . . .
 ```
 
 **UNGUIDED 2**
+
 Pak RT memiliki 10 warga dengan nama: siti, situ, sana, ana, ani, caca, cici, dida, dodo,
 dan dadi. Supaya mudah dalam melakukan pencarian, Pak RT akan mengurutkan namanama tersebut sesuai dengan alfabet. Buatlah program untuk membantu Pak RT dengan
 menggunakan algoritma Bubble Sort
@@ -708,6 +712,7 @@ Press any key to continue . . .
 ```
 
 **UNGUIDED 3**
+
 Buatlah program yang meminta user menginputkan suatu bilangan n dan meminta user
 untuk menginputkan sejumlah n karakter. Kemudian program akan melakukan sorting
 secara menaik (ascending) dan menurun (descending)
@@ -880,6 +885,7 @@ Press any key to continue . . .
 ```
 
 **DAFTAR PUSTAKA**
+
 Endang Retnoningsih. (2018). Algoritma Pengurutan Data (Sorting) Dengan Metode Insertion Sort dan Selection Sort. Information Management for Educators and Professionals, 3(1), 95–106.
 
 Sonita, A., & Nurtaneo, F. (2016). Analisis Perbandingan Algoritma Bubble Sort, Merge Sort, Dan Quick Sort Dalam Proses Pengurutan Kombinasi Angka Dan Huruf. Pseudocode, 2(2), 75–80. https://doi.org/10.33369/pseudocode.2.2.75-80
