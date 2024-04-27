@@ -467,6 +467,20 @@ Interpretasinya :
 
 Program diatas meminta pengguna untuk memasukkan sejumlah karakter, menyimpannya dalam sebuah array, mengurutkannya secara descending menggunakan algoritma insertion sort, dan akhirnya menampilkan hasil pengurutan tersebut. Awalnya, program akan meminta pengguna untuk memasukkan jumlah karakter yang diinginkan. Setelah itu, program akan meminta pengguna untuk memasukkan karakter-karakter tersebut satu per satu. Kemudian, program akan mengurutkan karakter-karakter tersebut secara descending dan menampilkannya kepada pengguna. Proses pengurutan dilakukan menggunakan algoritma insertion sort. Program kemudian akan mengakhiri eksekusi dengan mengembalikan nilai 0, menandakan bahwa program telah berakhir dengan sukses.
 
+**HASIL OUTPUT**
+```C++
+Masukkan jumlah karakter: 3
+Masukkan 3 karakter:
+Karakter ke-1: 5
+Karakter ke-2: 9
+Karakter ke-3: 2
+
+Karakter setelah diurutkan secara descending:
+9 5 2
+--------------------------------
+Process exited after 6.447 seconds with return value 0
+Press any key to continue . . .
+```
 
 **UNGUIDED 1**
 
